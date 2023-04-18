@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+fieldset {
+    border: 5px double #463F3A;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #BCB8B1;
+    padding: 10px 30px;
+}
+
+legend {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+label {
+    display: inline-block;
+    line-height: 18px;
+    width: 50px;
+    font-size: 18px;
+}
+
+input {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+input:focus {
+    background-color: #f5f3f4;
+    outline: none;
+}
+
+fieldset>div {
+    border-bottom: 2px dashed #BCB8B1;
+    margin-top: 10px;
+}
+
+fieldset>div>div {
+    font-size: 14px;
+    color: #BCB8B1;
+    padding-bottom: 10px;
+}
+
+.fa-exclamation-circle {
+    color: red;
+    visibility: hidden;
+    font-size: 14px;
+}
+
+.fa-check {
+    color: green;
+    font-size: 14px;
+}

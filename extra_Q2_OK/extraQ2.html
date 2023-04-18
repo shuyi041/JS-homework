@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>製作表單</title>
+    <link rel="stylesheet" href="extraQ2.css">
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>基本資料</legend>
+            <div id="forname">
+                <label>姓名:</label>
+                <input type="text" name="username" autofocus autocomplete="off">
+                <span><i class="fas fa-exclamation-circle"></i></span>
+                <div>(1.不可空白 2.至少兩個字以上 3.必須全部為中文字)</div>
+            </div>
+            <div id="forcode">
+                <label>密碼:</label>
+                <input type="code" name="code" autocomplete="off">
+                <span><i class="fas fa-exclamation-circle"></i></span>
+                <div>(1.不可空白 2.至少6個字且必須包含英數字、特殊字元[!@#$%^&*])</div>
+            </div>
+            <div id="fordate">
+                <label>日期:</label>
+                <input type="text" name="date" autocomplete="off">
+                <span><i class="fas fa-exclamation-circle"></i></span>
+                <div>格式：西元年/月/日(yyyy/mm/dd)</div>
+            </div>
+        </fieldset>
+        <script src="extraQ2.js"></script>
+
+    </form>
+</body>
+
+</html>

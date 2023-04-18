@@ -1,0 +1,53 @@
+label {
+    width: 100px;
+    height: 22px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+fieldset {
+    width: 420px;
+    margin: auto;
+    background-color: #eae3da;
+    border: 3px dashed #3f342f;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #999;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div {
+    width: 400px;
+    padding: 5px;
+    margin: auto;
+}
+
+legend {
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #999;
+    color: #3f342f;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    outline: none;
+    color: #3f342f;
+    border: 1px solid #3f342f;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #999;
+}
+
+input[type="button"] {
+    background-color: #8A716A;
+    font-size: 16px;
+    color: #fff;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+#year_result {
+    color: #3f342f;
+}

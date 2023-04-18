@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS作業 第八題</title>
+    <link rel="stylesheet" href="Q8.css">
+</head>
+
+<body>
+    <div id="all">
+        <div class="contanier">
+            <div class="main">
+                <h2>密碼檢查 一次到位</h2>
+                <div>
+                    <label>Password:</label>
+                    <input type="password" id="idPwd" size="15" oninput="checkPwd()" />
+                </div>
+            </div>
+            <div id="idsp"></div>
+        </div>
+        <div class="contanier">
+            <div id="way2">
+                <h2>密碼檢查 逐步判斷</h2>
+                <label>Password:</label>
+                <input type="password" id="idPwd2" size="15" />
+            </div>
+            <div>
+                <ul id="checklist">
+                    <li><i class="fas fa-times"></i>包含一個大寫字母</li>
+                    <li><i class="fas fa-times"></i>包含一個小寫字母</li>
+                    <li><i class="fas fa-times"></i>包含一個特殊符號</li>
+                    <li><i class="fas fa-times"></i>包含一個數字</li>
+                    <li><i class="fas fa-times"></i>八位數以上</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="Q8.js"></script>
+</body>
+
+</html>

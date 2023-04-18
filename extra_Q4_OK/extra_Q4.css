@@ -1,0 +1,128 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider {
+    width: 100%;
+    height: 95%;
+    position: relative;
+}
+
+.slidernext {
+    left: -100vw;
+}
+
+.sliderpre {
+    left: 100vw;
+}
+
+
+#slider>div {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    position: absolute;
+}
+
+.none_visible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+#slider>div:first-child {
+    background-image: url(img/img1.jpg);
+    z-index: 2;
+}
+
+#slider>div:nth-child(2) {
+    background-image: url(img/img2.jpg);
+}
+
+#slider>div:nth-child(3) {
+    background-image: url(img/img3.jpg);
+}
+
+#slider>div:nth-child(4) {
+    background-image: url(img/img4.jpg);
+}
+
+#slider>div:nth-child(5) {
+    background-image: url(img/img5.jpg);
+}
+
+#slider>div>a {
+    flex: 1;
+}
+
+.circle {
+    background-color: rgba(256, 256, 256, 0.2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+}
+
+.pre {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.fas1 {
+    font-size: 30px;
+    border-radius: 20%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(256, 256, 256, 0.5);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.fa-less-than {
+    left: 10px;
+}
+
+.fa-greater-than {
+    right: 10px;
+}
+
+.indexbar {
+    width: 700px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+    z-index: 10;
+}
+
+.fas2 {
+    font-size: 70px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: lightgray;
+}
+
+.indexNow {
+    color: #06AED5;
+}

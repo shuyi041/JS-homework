@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 500px;
+    margin: 50px auto;
+}
+
+section>div:nth-child(3) {
+    color: rgb(59, 64, 70);
+    font-size: 10px;
+}
+
+.fas {
+    font-size: 25px;
+    color: #fdc500
+}
+
+.far {
+    font-size: 25px;
+    color: lightgray;
+}
+
+#comment {
+    margin: 10px 0px;
+    color: lightcoral;
+    font-weight: 700;
+}
